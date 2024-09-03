@@ -1,8 +1,8 @@
 import assert from 'assert';
 import CoffeeMaker from '../src/CoffeeMaker';
-import { EspressoStrategy } from '../src/Strategy';
-import { FrenchPressStrategy } from '../src/Strategy';
-import { PourOverStrategy } from '../src/Strategy';
+import { EspressoStrategy } from '../src/CoffeeMakingStrategies';
+import { FrenchPressStrategy } from '../src/CoffeeMakingStrategies';
+import { PourOverStrategy } from '../src/CoffeeMakingStrategies';
 
 describe('CoffeeMaker Tests', function () {
 
